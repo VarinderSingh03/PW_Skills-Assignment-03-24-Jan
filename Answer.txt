@@ -13,7 +13,7 @@ b) "git config --global user.email USER_EMAIL@MAIL.com" = To set the user email.
 Ans: To add a file to staging area command - "git add FILE_NAME.extension" is used.
 
 5. How to remove a file from the staging area?
-Ans: To remove a file - "git rm FILE_NAME --cached" command is used.
+Ans: To remove a file - "git rm --cached FILE_NAME" command is used.
 
 6. How to make a commit?
 Ans: To commit a file from staging area to repository "git commit -m "CATEGORY*: SHORT DESCRIPTION IN PRESENT TENSE" command is used.
