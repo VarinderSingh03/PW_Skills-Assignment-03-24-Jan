@@ -1,0 +1,29 @@
+1. How to check if git is available on your system?
+Ans: To check if git is available we can use command "git version". If git is installed correctly then it will give version number as output.
+
+2. How to initialize a new Git repository?
+Ans: To initialize a new Git repository, "git init" command is used.
+
+3. How to tell git about your name and email?
+Ans: To tell git about name and email the following command can be used ;
+a) "git config --global user.name USER_NAME" = To set the username.
+b) "git config --global user.email USER_EMAIL@MAIL.com" = To set the user email.
+
+4. How to add a file to the staging area?
+Ans: To add a file to staging area command - "git add FILE_NAME.extension" is used.
+
+5. How to remove a file from the staging area?
+Ans: To remove a file - "git rm FILE_NAME --cached" command is used.
+
+6. How to make a commit?
+Ans: To commit a file from staging area to repository "git commit -m "CATEGORY*: SHORT DESCRIPTION IN PRESENT TENSE" command is used.
+
+7. How to send your changes to a remote repository?
+Ans: To send file to remote repository command the following command are used
+a) "git remote add origin https://github.com/GITHUB_PROFILE_USERNAME/REPOSITARY_NAME.git" = To add GITHUB repository link. (To add more Repository change the origin to any name) 
+b) "git push -u origin master" = To push the local repository to GITHUB (If optional Step was implemented - master -> main).
+
+8. What is the difference between clone and pull?
+Ans:  The difference between clone and pull is
+a) "git clone https://github.com/GITHUB_PROFILE_USERNAME/REPOSITARY_NAME.git" = To clone repository from Github.
+b) "git pull" = To update the cloned repository.
